@@ -11,6 +11,9 @@
 		3C6D76C222EA84D300338047 /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D76C122EA84D300338047 /* URLSessionMock.swift */; };
 		3C6D76C622EA85ED00338047 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D76C522EA85ED00338047 /* Utilities.swift */; };
 		3C6D76C822EA86EB00338047 /* StubResponses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D76C722EA86EB00338047 /* StubResponses.plist */; };
+		3C6D76CA22EAA62800338047 /* PersistentStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D76C922EAA62800338047 /* PersistentStorageManager.swift */; };
+		3C6D76CC22EAB10D00338047 /* PersistentStorageManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D76CB22EAB10D00338047 /* PersistentStorageManagerTests.swift */; };
+		3C6D76CE22EAB12E00338047 /* UserDefaultsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D76CD22EAB12E00338047 /* UserDefaultsMock.swift */; };
 		4120187922E9D12C00A25656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120187822E9D12C00A25656 /* AppDelegate.swift */; };
 		4120187B22E9D12C00A25656 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120187A22E9D12C00A25656 /* ViewController.swift */; };
 		4120188022E9D12E00A25656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4120187F22E9D12E00A25656 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 		3C6D76C122EA84D300338047 /* URLSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = URLSessionMock.swift; path = WeatherTests/URLSessionMock.swift; sourceTree = SOURCE_ROOT; };
 		3C6D76C522EA85ED00338047 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3C6D76C722EA86EB00338047 /* StubResponses.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StubResponses.plist; sourceTree = "<group>"; };
+		3C6D76C922EAA62800338047 /* PersistentStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorageManager.swift; sourceTree = "<group>"; };
+		3C6D76CB22EAB10D00338047 /* PersistentStorageManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorageManagerTests.swift; sourceTree = "<group>"; };
+		3C6D76CD22EAB12E00338047 /* UserDefaultsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsMock.swift; sourceTree = "<group>"; };
 		4120187522E9D12C00A25656 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4120187822E9D12C00A25656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4120187A22E9D12C00A25656 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				3C6D76BE22EA847E00338047 /* NetworkManagerTests.swift */,
+				3C6D76CB22EAB10D00338047 /* PersistentStorageManagerTests.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -92,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				3C6D76C122EA84D300338047 /* URLSessionMock.swift */,
+				3C6D76CD22EAB12E00338047 /* UserDefaultsMock.swift */,
 			);
 			path = CommonMocks;
 			sourceTree = "<group>";
@@ -170,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				4187B40422E9EEBA003FEB6E /* NetworkManager.swift */,
+				3C6D76C922EAA62800338047 /* PersistentStorageManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -308,6 +317,7 @@
 			files = (
 				4187B40522E9EEBA003FEB6E /* NetworkManager.swift in Sources */,
 				4120187B22E9D12C00A25656 /* ViewController.swift in Sources */,
+				3C6D76CA22EAA62800338047 /* PersistentStorageManager.swift in Sources */,
 				4120187922E9D12C00A25656 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,8 +326,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6D76CE22EAB12E00338047 /* UserDefaultsMock.swift in Sources */,
 				3C6D76C622EA85ED00338047 /* Utilities.swift in Sources */,
 				3C6D76C222EA84D300338047 /* URLSessionMock.swift in Sources */,
+				3C6D76CC22EAB10D00338047 /* PersistentStorageManagerTests.swift in Sources */,
 				3C6D76BF22EA847E00338047 /* NetworkManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
