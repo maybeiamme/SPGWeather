@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>search_success</key>
+	<string>{
+    &quot;search_api&quot;: {
+        &quot;result&quot;: [
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Kampong Ayer Gemuruh&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Singapore&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;1.350&quot;,
+                &quot;longitude&quot;: &quot;103.983&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.35,103.9833&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Kampong Darat Nanas&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Singapore&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;1.358&quot;,
+                &quot;longitude&quot;: &quot;103.979&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.3581,103.9794&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Bena Park&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Singapore&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;1.352&quot;,
+                &quot;longitude&quot;: &quot;103.975&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.3517,103.975&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Yan Kit&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Singapore&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;1.357&quot;,
+                &quot;longitude&quot;: &quot;103.972&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.3572,103.9719&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Yan Kit Village&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Singapore&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;1.357&quot;,
+                &quot;longitude&quot;: &quot;103.972&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.3572,103.9719&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Kampong Wing Loong&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Singapore&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;1.350&quot;,
+                &quot;longitude&quot;: &quot;103.972&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.35,103.9719&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Bukit Sembawang Estate&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Singapore&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;1.360&quot;,
+                &quot;longitude&quot;: &quot;103.970&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.3597,103.9703&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Mata Ikan&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Singapore&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;1.336&quot;,
+                &quot;longitude&quot;: &quot;103.975&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.3361,103.975&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Mata Ikan Village&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Singapore&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;1.336&quot;,
+                &quot;longitude&quot;: &quot;103.975&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.3361,103.975&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;East View Garden&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Singapore&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;1.346&quot;,
+                &quot;longitude&quot;: &quot;103.965&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.3458,103.9653&quot;
+                    }
+                ]
+            }
+        ]
+    }
+}</string>
+</dict>
+</plist>
