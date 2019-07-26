@@ -24,7 +24,17 @@ protocol URLSessionProtocol {
 
 extension URLSession: URLSessionProtocol {}
 
-protocol NetworkManagerProtocol {
+protocol NetworkCancelable {
+    
+    /**
+     Function that removes the corresponding task.
+     
+     - Parameter taskIdentifier: Unique identifier for task to cancel from the session that created this task.
+     */
+    func cancel(identifier taskIdentifier: Int)
+}
+
+protocol NetworkManagerProtocol: NetworkCancelable {
     /**
      Function that is responsible for network operation.
      
@@ -34,13 +44,6 @@ protocol NetworkManagerProtocol {
      - Returns: Unique identifier for task from current session
      */
     func request(with request: URLRequest, completion: @escaping (_ result: Result<Data, NetworkError>) -> Void) -> Int
-    
-    /**
-     Function that removes the corresponding task.
-     
-     - Parameter taskIdentifier: Unique identifier for task to cancel from the session that created this task.
-     */
-    func cancel(identifier taskIdentifier: Int)
 }
 
 final class NetworkManager {

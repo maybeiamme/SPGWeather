@@ -2,6 +2,46 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>search_success_emptyresult</key>
+	<string>{
+    &quot;search_api&quot;: {
+        &quot;result&quot;: [
+            
+        ]
+    }
+}</string>
+	<key>search_success_seoul</key>
+	<string>{
+    &quot;search_api&quot;: {
+        &quot;result&quot;: [
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Seoul&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;South Korea&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;37.566&quot;,
+                &quot;longitude&quot;: &quot;127.000&quot;,
+                &quot;population&quot;: &quot;10323448&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=37.5664,126.9997&quot;
+                    }
+                ]
+            }
+        ]
+    }
+}</string>
 	<key>search_success</key>
 	<string>{
     &quot;search_api&quot;: {
