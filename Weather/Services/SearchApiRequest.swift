@@ -101,7 +101,7 @@ extension SearchApiRequest: SearchApiRequestProtocol {
                 completion(.failure(ApiError.wrongurl))
                 return -1
         }
-        let queryItems = [URLQueryItem(name: "q", value: query), URLQueryItem(name: "key", value: apikey)]
+        let queryItems = [URLQueryItem(name: "q", value: query), URLQueryItem(name: "key", value: apikey), URLQueryItem(name: "format", value: "json")]
         urlComponents.queryItems = queryItems
         guard let url = urlComponents.url else {
             completion(.failure(ApiError.wrongurl))

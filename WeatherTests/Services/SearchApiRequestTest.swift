@@ -28,7 +28,7 @@ class SearchApiRequestTest: XCTestCase {
         let _ = sut.request(with: "query") { result in
         }
         
-        let expected = "https://api.worldweatheronline.com/premium/v1/search.ashx?q=query&key=0434896a6994489cb6905901192607"
+        let expected = "https://api.worldweatheronline.com/premium/v1/search.ashx?q=query&key=0434896a6994489cb6905901192607&format=json"
         let actual = networkManager.request!.url!.absoluteString
         XCTAssertEqual(expected, actual)
     }
