@@ -21,7 +21,6 @@
 		4120187B22E9D12C00A25656 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120187A22E9D12C00A25656 /* HomeViewController.swift */; };
 		4120188022E9D12E00A25656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4120187F22E9D12E00A25656 /* Assets.xcassets */; };
 		4120188322E9D12E00A25656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4120188122E9D12E00A25656 /* LaunchScreen.storyboard */; };
-		4120189922E9D12F00A25656 /* WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120189822E9D12F00A25656 /* WeatherUITests.swift */; };
 		4150F11222EB5DF70003DFD7 /* Bundle+Keypath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150F11122EB5DF70003DFD7 /* Bundle+Keypath.swift */; };
 		4150F11422EB5F9B0003DFD7 /* ConfigValueVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150F11322EB5F9B0003DFD7 /* ConfigValueVerification.swift */; };
 		4150F11822EBDB730003DFD7 /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150F11722EBDB730003DFD7 /* HomeEntity.swift */; };
@@ -59,6 +58,9 @@
 		41907C7122EC943300CEED11 /* HomeRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41907C7022EC943300CEED11 /* HomeRouterTests.swift */; };
 		41907C7322EC948200CEED11 /* UINavigationControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41907C7222EC948200CEED11 /* UINavigationControllerMock.swift */; };
 		41907C7522EC948E00CEED11 /* UIViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41907C7422EC948E00CEED11 /* UIViewControllerMock.swift */; };
+		41907C7722ECA11100CEED11 /* CaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41907C7622ECA11100CEED11 /* CaseTests.swift */; };
+		41907C7F22ECAFCF00CEED11 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41907C7C22ECA41000CEED11 /* Utilities.swift */; };
+		41907C8022ECAFD300CEED11 /* StubResponses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41907C7922ECA35600CEED11 /* StubResponses.plist */; };
 		41DB65E122EB286C007A2F09 /* ApiEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB65E022EB286C007A2F09 /* ApiEndpoints.swift */; };
 		41DB65E322EB3429007A2F09 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41DB65E222EB3429007A2F09 /* Config.plist */; };
 		41DB65E622EB40C3007A2F09 /* UrlVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB65E522EB40C3007A2F09 /* UrlVerification.swift */; };
@@ -104,7 +106,6 @@
 		4120188922E9D12F00A25656 /* WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4120188F22E9D12F00A25656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4120189422E9D12F00A25656 /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4120189822E9D12F00A25656 /* WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITests.swift; sourceTree = "<group>"; };
 		4120189A22E9D12F00A25656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4150F11122EB5DF70003DFD7 /* Bundle+Keypath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Keypath.swift"; sourceTree = "<group>"; };
 		4150F11322EB5F9B0003DFD7 /* ConfigValueVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigValueVerification.swift; sourceTree = "<group>"; };
@@ -143,6 +144,9 @@
 		41907C7022EC943300CEED11 /* HomeRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouterTests.swift; sourceTree = "<group>"; };
 		41907C7222EC948200CEED11 /* UINavigationControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerMock.swift; sourceTree = "<group>"; };
 		41907C7422EC948E00CEED11 /* UIViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerMock.swift; sourceTree = "<group>"; };
+		41907C7622ECA11100CEED11 /* CaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseTests.swift; sourceTree = "<group>"; };
+		41907C7922ECA35600CEED11 /* StubResponses.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StubResponses.plist; sourceTree = "<group>"; };
+		41907C7C22ECA41000CEED11 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		41DB65E022EB286C007A2F09 /* ApiEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoints.swift; sourceTree = "<group>"; };
 		41DB65E222EB3429007A2F09 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		41DB65E522EB40C3007A2F09 /* UrlVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlVerification.swift; sourceTree = "<group>"; };
@@ -285,6 +289,7 @@
 				4120188122E9D12E00A25656 /* LaunchScreen.storyboard */,
 				4120188422E9D12E00A25656 /* Info.plist */,
 				41DB65E222EB3429007A2F09 /* Config.plist */,
+				41907C7E22ECAFA900CEED11 /* UITest */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -306,8 +311,8 @@
 		4120189722E9D12F00A25656 /* WeatherUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4120189822E9D12F00A25656 /* WeatherUITests.swift */,
 				4120189A22E9D12F00A25656 /* Info.plist */,
+				41907C7622ECA11100CEED11 /* CaseTests.swift */,
 			);
 			path = WeatherUITests;
 			sourceTree = "<group>";
@@ -405,6 +410,15 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		41907C7E22ECAFA900CEED11 /* UITest */ = {
+			isa = PBXGroup;
+			children = (
+				41907C7922ECA35600CEED11 /* StubResponses.plist */,
+				41907C7C22ECA41000CEED11 /* Utilities.swift */,
+			);
+			path = UITest;
+			sourceTree = "<group>";
+		};
 		41DB65DF22EB285A007A2F09 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
@@ -498,6 +512,7 @@
 					};
 					4120189322E9D12F00A25656 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 4120187422E9D12C00A25656;
 					};
 				};
@@ -531,6 +546,7 @@
 				41DB65E322EB3429007A2F09 /* Config.plist in Resources */,
 				4120188022E9D12E00A25656 /* Assets.xcassets in Resources */,
 				41907C6B22EC81F500CEED11 /* DetailViewController.xib in Resources */,
+				41907C8022ECAFD300CEED11 /* StubResponses.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +585,7 @@
 				4150F11222EB5DF70003DFD7 /* Bundle+Keypath.swift in Sources */,
 				4174992322EC122500141875 /* HomeRouter.swift in Sources */,
 				41DB65E122EB286C007A2F09 /* ApiEndpoints.swift in Sources */,
+				41907C7F22ECAFCF00CEED11 /* Utilities.swift in Sources */,
 				41907C5922EC6FB300CEED11 /* DetailPresenter.swift in Sources */,
 				41907C4B22EC696E00CEED11 /* DetailPersistentStorageService.swift in Sources */,
 				4179D5BA22EBEECC00C5D89E /* HomePersistentStorageService.swift in Sources */,
@@ -622,7 +639,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4120189922E9D12F00A25656 /* WeatherUITests.swift in Sources */,
+				41907C7722ECA11100CEED11 /* CaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -854,6 +871,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9YB6MT44B;
 				INFOPLIST_FILE = WeatherUITests/Info.plist;
@@ -864,6 +882,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.WeatherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Weather;
@@ -874,6 +893,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9YB6MT44B;
 				INFOPLIST_FILE = WeatherUITests/Info.plist;

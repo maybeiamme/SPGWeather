@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>detail_singapore</key>
+	<string>{&quot;data&quot;:{&quot;request&quot;:[{&quot;type&quot;:&quot;City&quot;,&quot;query&quot;:&quot;Singapore, Singapore&quot;}],&quot;current_condition&quot;:[{&quot;observation_time&quot;:&quot;04:41 PM&quot;,&quot;temp_C&quot;:&quot;29&quot;,&quot;temp_F&quot;:&quot;84&quot;,&quot;weatherCode&quot;:&quot;116&quot;,&quot;weatherIconUrl&quot;:[{&quot;value&quot;:&quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png&quot;}],&quot;weatherDesc&quot;:[{&quot;value&quot;:&quot;Partly cloudy&quot;}],&quot;windspeedMiles&quot;:&quot;6&quot;,&quot;windspeedKmph&quot;:&quot;9&quot;,&quot;winddirDegree&quot;:&quot;140&quot;,&quot;winddir16Point&quot;:&quot;SE&quot;,&quot;precipMM&quot;:&quot;0.0&quot;,&quot;precipInches&quot;:&quot;0.0&quot;,&quot;humidity&quot;:&quot;79&quot;,&quot;visibility&quot;:&quot;10&quot;,&quot;visibilityMiles&quot;:&quot;6&quot;,&quot;pressure&quot;:&quot;1011&quot;,&quot;pressureInches&quot;:&quot;30&quot;,&quot;cloudcover&quot;:&quot;75&quot;,&quot;FeelsLikeC&quot;:&quot;34&quot;,&quot;FeelsLikeF&quot;:&quot;94&quot;,&quot;uvIndex&quot;:0}]}}</string>
+	<key>home_search_20response</key>
+	<string>{
+    &quot;search_api&quot;: {
+        &quot;result&quot;: [
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;La Pulgosa&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.950&quot;,
+                &quot;longitude&quot;: &quot;-1.867&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.95,-1.8667&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Los Llanos&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.917&quot;,
+                &quot;longitude&quot;: &quot;-1.850&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.9167,-1.85&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Albacete&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.983&quot;,
+                &quot;longitude&quot;: &quot;-1.850&quot;,
+                &quot;population&quot;: &quot;155083&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.9833,-1.85&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;La Torrecica&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;39.000&quot;,
+                &quot;longitude&quot;: &quot;-1.817&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=39,-1.8167&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;La Losilla&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.933&quot;,
+                &quot;longitude&quot;: &quot;-1.767&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.9333,-1.7667&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Caserio La Losilla&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.933&quot;,
+                &quot;longitude&quot;: &quot;-1.767&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.9333,-1.7667&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Salobral&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.867&quot;,
+                &quot;longitude&quot;: &quot;-1.917&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.8667,-1.9167&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Pozo De La Pena&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.900&quot;,
+                &quot;longitude&quot;: &quot;-1.733&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.9,-1.7333&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Caserio Pozo De La Pena&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.900&quot;,
+                &quot;longitude&quot;: &quot;-1.733&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.9,-1.7333&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Casa Grande&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;39.033&quot;,
+                &quot;longitude&quot;: &quot;-1.967&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=39.0333,-1.9667&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Chinchilla De Monte Aragon&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.917&quot;,
+                &quot;longitude&quot;: &quot;-1.717&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.9167,-1.7167&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Chinchilla&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.917&quot;,
+                &quot;longitude&quot;: &quot;-1.717&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.9167,-1.7167&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Los Anguijes&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.833&quot;,
+                &quot;longitude&quot;: &quot;-1.967&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.8333,-1.9667&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Caserio La Felipa&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;39.033&quot;,
+                &quot;longitude&quot;: &quot;-1.717&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=39.0333,-1.7167&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;La Felipa&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;39.033&quot;,
+                &quot;longitude&quot;: &quot;-1.717&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=39.0333,-1.7167&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Caserio De Chinchilla&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.900&quot;,
+                &quot;longitude&quot;: &quot;-1.683&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.9,-1.6833&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Estacion De Chinchilla&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;38.900&quot;,
+                &quot;longitude&quot;: &quot;-1.683&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=38.9,-1.6833&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Caserio Miralcampo&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;39.083&quot;,
+                &quot;longitude&quot;: &quot;-1.783&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=39.0833,-1.7833&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Miralcampo&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;39.083&quot;,
+                &quot;longitude&quot;: &quot;-1.783&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=39.0833,-1.7833&quot;
+                    }
+                ]
+            },
+            {
+                &quot;areaName&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Tinarejos&quot;
+                    }
+                ],
+                &quot;country&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Spain&quot;
+                    }
+                ],
+                &quot;region&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Castilla-La Mancha&quot;
+                    }
+                ],
+                &quot;latitude&quot;: &quot;39.067&quot;,
+                &quot;longitude&quot;: &quot;-1.733&quot;,
+                &quot;population&quot;: &quot;0&quot;,
+                &quot;weatherUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=39.0667,-1.7333&quot;
+                    }
+                ]
+            }
+        ]
+    }
+}</string>
+	<key>home_search</key>
+	<string>{&quot;search_api&quot;:{&quot;result&quot;:[{&quot;areaName&quot;:[{&quot;value&quot;:&quot;Singapore&quot;}],&quot;country&quot;:[{&quot;value&quot;:&quot;Singapore&quot;}],&quot;region&quot;:[{&quot;value&quot;:&quot;&quot;}],&quot;latitude&quot;:&quot;1.293&quot;,&quot;longitude&quot;:&quot;103.856&quot;,&quot;population&quot;:&quot;3547809&quot;,&quot;weatherUrl&quot;:[{&quot;value&quot;:&quot;http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=1.2931,103.8558&quot;}]}]}}</string>
+</dict>
+</plist>

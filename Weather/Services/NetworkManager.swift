@@ -56,6 +56,12 @@ final class NetworkManager {
 
 extension NetworkManager: NetworkManagerProtocol {
     func request(with request: URLRequest, completion: @escaping (Result<Data, NetworkError>) -> Void) -> Int {
+        // for UITEST
+        if ProcessInfo.processInfo.environment["Environment"] == "UITEST" {
+            completion(.success(UITest.data(for: request.url!.absoluteString)))
+            return -1
+        }
+
         let task = session.dataTask(with: request) { data, response, error in
             guard let data = data,
                 let httpResponse = response as? HTTPURLResponse,
