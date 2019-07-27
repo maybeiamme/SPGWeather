@@ -85,6 +85,28 @@ class HomeInteractorTests: XCTestCase {
         let expected = HomeViewdCities(citiNames: ["Singapore", "London"])
         XCTAssertEqual(expected, actual)
     }
+    
+    func testHomeInteractorReturnsCorrectCityName() {
+        // given
+        let response = HomeSearchedKeyword(titles: ["London", "Singapore", "LA"])
+        
+        let expectation = XCTestExpectation(description: #function)
+        
+        api.apiCalled = {
+            self.api.completion?(response)
+        }
+        presenter.resultLoaded = {
+            // then
+            let actual = self.sut.cityName(for: 2)
+            let expected = "LA"
+            XCTAssertEqual(expected, actual)
+            expectation.fulfill()
+        }
+        
+        // when
+        sut.search(with: "London")
+        wait(for: [expectation], timeout: 1.0)
+    }
 }
 
 class HomeApiServiceMock: HomeApiServiceProtocol {

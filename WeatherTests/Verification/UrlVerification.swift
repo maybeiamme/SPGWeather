@@ -20,4 +20,15 @@ class UrlVerification: XCTestCase {
         // then
         XCTAssertEqual(expected, actual)
     }
+    
+    func testWeatherUrlGenerateCorrecly() {
+        // given
+        
+        // when
+        let expected = ApiUrls.weather.url(for: .v1)!
+        let actual = "https://api.worldweatheronline.com/premium/v1/weather.ashx"
+        
+        // then
+        XCTAssertEqual(expected, actual)
+    }
 }

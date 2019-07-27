@@ -9,7 +9,7 @@
 import UIKit
 
 protocol HomeRouterProtocol {
-    func navigateToWeatherView(from: UIViewController?)
+    func navigateToWeatherView(from: UIViewController?, with cityName: String)
 }
 
 final class HomeRouter {
@@ -30,7 +30,8 @@ final class HomeRouter {
 }
 
 extension HomeRouter: HomeRouterProtocol {
-    func navigateToWeatherView(from: UIViewController?) {
-        
+    func navigateToWeatherView(from: UIViewController?, with cityName: String) {
+        let viewController = DetailRouter.instantiate(cityName: cityName)
+        from?.navigationController?.pushViewController(viewController, animated: true)
     }
 }

@@ -17,6 +17,7 @@ enum Version: String {
  */
 enum ApiUrls {
     case search
+    case weather
     
     /**
      Function that returns corresponding compelete url for api.
@@ -27,6 +28,8 @@ enum ApiUrls {
         switch self {
         case .search:
             return url(for: "search", version: version)
+        case .weather:
+            return url(for: "weather", version: version)
         }
     }
     

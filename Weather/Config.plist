@@ -6,6 +6,8 @@
 	<string>0434896a6994489cb6905901192607</string>
 	<key>endpoint</key>
 	<dict>
+		<key>weather</key>
+		<string>/weather.ashx</string>
 		<key>search</key>
 		<string>/search.ashx</string>
 	</dict>

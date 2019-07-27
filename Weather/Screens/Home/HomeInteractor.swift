@@ -11,6 +11,7 @@ import Foundation
 protocol HomeInteractorInputProtocol {
     func search(with keyword: String?)
     func viewedCities() -> HomeViewdCities
+    func cityName(for index: Int) -> String?
 }
 
 final class HomeInteractor {
@@ -31,13 +32,13 @@ final class HomeInteractor {
     }
     
     private var searchTask: DispatchWorkItem?
+    private var searchedList: HomeSearchedKeyword?
 }
 
 extension HomeInteractor: HomeInteractorInputProtocol {
     func search(with keyword: String?) {
         guard let keyword = keyword,
             keyword.count > 1 else {
-//                presenter?.searchResultLoaded(results: HomeSearchedKeyword(titles: [String]()))
                 return
         }
         apiService.cancelAllPreviousSearch()
@@ -46,6 +47,7 @@ extension HomeInteractor: HomeInteractorInputProtocol {
         }
         let task = DispatchWorkItem { [weak self] in
             self?.apiService.search(with: keyword, completion: { (result) in
+                self?.searchedList = result
                 DispatchQueue.main.async {
                     self?.presenter?.searchResultLoaded(results: result)
                 }
@@ -57,5 +59,9 @@ extension HomeInteractor: HomeInteractorInputProtocol {
     
     func viewedCities() -> HomeViewdCities {
         return persistentService.getViewedCities()
+    }
+    
+    func cityName(for index: Int) -> String? {
+        return searchedList?.titles[index]
     }
 }

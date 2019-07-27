@@ -33,6 +33,17 @@ class ConfigValueVerification: XCTestCase {
         XCTAssertEqual(expected, actual)
     }
     
+    func testEndpointMatchesForWeather() {
+        // given
+        
+        // when
+        let expected = Bundle.main.configValue(for: "endpoint.weather")
+        let actual = "/weather.ashx"
+        
+        // then
+        XCTAssertEqual(expected, actual)
+    }
+    
     func testBaseUrlMatches() {
         // given
         

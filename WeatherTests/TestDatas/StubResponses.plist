@@ -2,6 +2,2246 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>detail_success</key>
+	<string>{
+    &quot;data&quot;: {
+        &quot;request&quot;: [
+            {
+                &quot;type&quot;: &quot;City&quot;,
+                &quot;query&quot;: &quot;London, United Kingdom&quot;
+            }
+        ],
+        &quot;current_condition&quot;: [
+            {
+                &quot;observation_time&quot;: &quot;02:20 PM&quot;,
+                &quot;temp_C&quot;: &quot;23&quot;,
+                &quot;temp_F&quot;: &quot;73&quot;,
+                &quot;weatherCode&quot;: &quot;122&quot;,
+                &quot;weatherIconUrl&quot;: [
+                    {
+                        &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png&quot;
+                    }
+                ],
+                &quot;weatherDesc&quot;: [
+                    {
+                        &quot;value&quot;: &quot;Overcast&quot;
+                    }
+                ],
+                &quot;windspeedMiles&quot;: &quot;0&quot;,
+                &quot;windspeedKmph&quot;: &quot;0&quot;,
+                &quot;winddirDegree&quot;: &quot;282&quot;,
+                &quot;winddir16Point&quot;: &quot;WNW&quot;,
+                &quot;precipMM&quot;: &quot;2.1&quot;,
+                &quot;precipInches&quot;: &quot;0.1&quot;,
+                &quot;humidity&quot;: &quot;73&quot;,
+                &quot;visibility&quot;: &quot;10&quot;,
+                &quot;visibilityMiles&quot;: &quot;6&quot;,
+                &quot;pressure&quot;: &quot;1011&quot;,
+                &quot;pressureInches&quot;: &quot;30&quot;,
+                &quot;cloudcover&quot;: &quot;100&quot;,
+                &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                &quot;FeelsLikeF&quot;: &quot;77&quot;,
+                &quot;uvIndex&quot;: 5
+            }
+        ],
+        &quot;weather&quot;: [
+            {
+                &quot;date&quot;: &quot;2019-07-26&quot;,
+                &quot;astronomy&quot;: [
+                    {
+                        &quot;sunrise&quot;: &quot;05:15 AM&quot;,
+                        &quot;sunset&quot;: &quot;08:58 PM&quot;,
+                        &quot;moonrise&quot;: &quot;12:39 AM&quot;,
+                        &quot;moonset&quot;: &quot;03:16 PM&quot;,
+                        &quot;moon_phase&quot;: &quot;Last Quarter&quot;,
+                        &quot;moon_illumination&quot;: &quot;31&quot;
+                    }
+                ],
+                &quot;maxtempC&quot;: &quot;28&quot;,
+                &quot;maxtempF&quot;: &quot;82&quot;,
+                &quot;mintempC&quot;: &quot;22&quot;,
+                &quot;mintempF&quot;: &quot;71&quot;,
+                &quot;avgtempC&quot;: &quot;25&quot;,
+                &quot;avgtempF&quot;: &quot;77&quot;,
+                &quot;totalSnow_cm&quot;: &quot;0.0&quot;,
+                &quot;sunHour&quot;: &quot;11.6&quot;,
+                &quot;uvIndex&quot;: &quot;5&quot;,
+                &quot;hourly&quot;: [
+                    {
+                        &quot;time&quot;: &quot;0&quot;,
+                        &quot;tempC&quot;: &quot;26&quot;,
+                        &quot;tempF&quot;: &quot;78&quot;,
+                        &quot;windspeedMiles&quot;: &quot;5&quot;,
+                        &quot;windspeedKmph&quot;: &quot;8&quot;,
+                        &quot;winddirDegree&quot;: &quot;192&quot;,
+                        &quot;winddir16Point&quot;: &quot;SSW&quot;,
+                        &quot;weatherCode&quot;: &quot;176&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Patchy rain possible&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;2.5&quot;,
+                        &quot;precipInches&quot;: &quot;0.1&quot;,
+                        &quot;humidity&quot;: &quot;58&quot;,
+                        &quot;visibility&quot;: &quot;9&quot;,
+                        &quot;visibilityMiles&quot;: &quot;5&quot;,
+                        &quot;pressure&quot;: &quot;1011&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;74&quot;,
+                        &quot;HeatIndexC&quot;: &quot;27&quot;,
+                        &quot;HeatIndexF&quot;: &quot;80&quot;,
+                        &quot;DewPointC&quot;: &quot;17&quot;,
+                        &quot;DewPointF&quot;: &quot;62&quot;,
+                        &quot;WindChillC&quot;: &quot;26&quot;,
+                        &quot;WindChillF&quot;: &quot;78&quot;,
+                        &quot;WindGustMiles&quot;: &quot;7&quot;,
+                        &quot;WindGustKmph&quot;: &quot;12&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;27&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;80&quot;,
+                        &quot;chanceofrain&quot;: &quot;67&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;86&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;98&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;300&quot;,
+                        &quot;tempC&quot;: &quot;25&quot;,
+                        &quot;tempF&quot;: &quot;76&quot;,
+                        &quot;windspeedMiles&quot;: &quot;4&quot;,
+                        &quot;windspeedKmph&quot;: &quot;6&quot;,
+                        &quot;winddirDegree&quot;: &quot;305&quot;,
+                        &quot;winddir16Point&quot;: &quot;NW&quot;,
+                        &quot;weatherCode&quot;: &quot;299&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Moderate rain at times&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.5&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;66&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1010&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;79&quot;,
+                        &quot;HeatIndexC&quot;: &quot;26&quot;,
+                        &quot;HeatIndexF&quot;: &quot;79&quot;,
+                        &quot;DewPointC&quot;: &quot;18&quot;,
+                        &quot;DewPointF&quot;: &quot;64&quot;,
+                        &quot;WindChillC&quot;: &quot;25&quot;,
+                        &quot;WindChillF&quot;: &quot;76&quot;,
+                        &quot;WindGustMiles&quot;: &quot;5&quot;,
+                        &quot;WindGustKmph&quot;: &quot;8&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;26&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;79&quot;,
+                        &quot;chanceofrain&quot;: &quot;68&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;82&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;15&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;600&quot;,
+                        &quot;tempC&quot;: &quot;22&quot;,
+                        &quot;tempF&quot;: &quot;71&quot;,
+                        &quot;windspeedMiles&quot;: &quot;9&quot;,
+                        &quot;windspeedKmph&quot;: &quot;15&quot;,
+                        &quot;winddirDegree&quot;: &quot;253&quot;,
+                        &quot;winddir16Point&quot;: &quot;WSW&quot;,
+                        &quot;weatherCode&quot;: &quot;356&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Moderate or heavy rain shower&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;2.5&quot;,
+                        &quot;precipInches&quot;: &quot;0.1&quot;,
+                        &quot;humidity&quot;: &quot;65&quot;,
+                        &quot;visibility&quot;: &quot;7&quot;,
+                        &quot;visibilityMiles&quot;: &quot;4&quot;,
+                        &quot;pressure&quot;: &quot;1011&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;78&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;76&quot;,
+                        &quot;DewPointC&quot;: &quot;15&quot;,
+                        &quot;DewPointF&quot;: &quot;59&quot;,
+                        &quot;WindChillC&quot;: &quot;22&quot;,
+                        &quot;WindChillF&quot;: &quot;71&quot;,
+                        &quot;WindGustMiles&quot;: &quot;14&quot;,
+                        &quot;WindGustKmph&quot;: &quot;23&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;22&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;71&quot;,
+                        &quot;chanceofrain&quot;: &quot;87&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;86&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;5&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;900&quot;,
+                        &quot;tempC&quot;: &quot;25&quot;,
+                        &quot;tempF&quot;: &quot;77&quot;,
+                        &quot;windspeedMiles&quot;: &quot;6&quot;,
+                        &quot;windspeedKmph&quot;: &quot;10&quot;,
+                        &quot;winddirDegree&quot;: &quot;307&quot;,
+                        &quot;winddir16Point&quot;: &quot;NW&quot;,
+                        &quot;weatherCode&quot;: &quot;176&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Patchy rain possible&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;2.1&quot;,
+                        &quot;precipInches&quot;: &quot;0.1&quot;,
+                        &quot;humidity&quot;: &quot;49&quot;,
+                        &quot;visibility&quot;: &quot;9&quot;,
+                        &quot;visibilityMiles&quot;: &quot;5&quot;,
+                        &quot;pressure&quot;: &quot;1011&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;78&quot;,
+                        &quot;HeatIndexC&quot;: &quot;26&quot;,
+                        &quot;HeatIndexF&quot;: &quot;78&quot;,
+                        &quot;DewPointC&quot;: &quot;13&quot;,
+                        &quot;DewPointF&quot;: &quot;56&quot;,
+                        &quot;WindChillC&quot;: &quot;25&quot;,
+                        &quot;WindChillF&quot;: &quot;77&quot;,
+                        &quot;WindGustMiles&quot;: &quot;10&quot;,
+                        &quot;WindGustKmph&quot;: &quot;16&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;26&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;78&quot;,
+                        &quot;chanceofrain&quot;: &quot;89&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;88&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;15&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;5&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1200&quot;,
+                        &quot;tempC&quot;: &quot;28&quot;,
+                        &quot;tempF&quot;: &quot;82&quot;,
+                        &quot;windspeedMiles&quot;: &quot;7&quot;,
+                        &quot;windspeedKmph&quot;: &quot;12&quot;,
+                        &quot;winddirDegree&quot;: &quot;282&quot;,
+                        &quot;winddir16Point&quot;: &quot;WNW&quot;,
+                        &quot;weatherCode&quot;: &quot;176&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Patchy rain possible&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;2.1&quot;,
+                        &quot;precipInches&quot;: &quot;0.1&quot;,
+                        &quot;humidity&quot;: &quot;42&quot;,
+                        &quot;visibility&quot;: &quot;9&quot;,
+                        &quot;visibilityMiles&quot;: &quot;5&quot;,
+                        &quot;pressure&quot;: &quot;1010&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;87&quot;,
+                        &quot;HeatIndexC&quot;: &quot;28&quot;,
+                        &quot;HeatIndexF&quot;: &quot;82&quot;,
+                        &quot;DewPointC&quot;: &quot;14&quot;,
+                        &quot;DewPointF&quot;: &quot;57&quot;,
+                        &quot;WindChillC&quot;: &quot;28&quot;,
+                        &quot;WindChillF&quot;: &quot;82&quot;,
+                        &quot;WindGustMiles&quot;: &quot;11&quot;,
+                        &quot;WindGustKmph&quot;: &quot;18&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;28&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;82&quot;,
+                        &quot;chanceofrain&quot;: &quot;67&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;85&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;94&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1500&quot;,
+                        &quot;tempC&quot;: &quot;27&quot;,
+                        &quot;tempF&quot;: &quot;81&quot;,
+                        &quot;windspeedMiles&quot;: &quot;9&quot;,
+                        &quot;windspeedKmph&quot;: &quot;15&quot;,
+                        &quot;winddirDegree&quot;: &quot;267&quot;,
+                        &quot;winddir16Point&quot;: &quot;W&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;47&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1010&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;55&quot;,
+                        &quot;HeatIndexC&quot;: &quot;28&quot;,
+                        &quot;HeatIndexF&quot;: &quot;82&quot;,
+                        &quot;DewPointC&quot;: &quot;15&quot;,
+                        &quot;DewPointF&quot;: &quot;59&quot;,
+                        &quot;WindChillC&quot;: &quot;27&quot;,
+                        &quot;WindChillF&quot;: &quot;81&quot;,
+                        &quot;WindGustMiles&quot;: &quot;11&quot;,
+                        &quot;WindGustKmph&quot;: &quot;17&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;28&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;82&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;86&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;48&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;80&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;93&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;7&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1800&quot;,
+                        &quot;tempC&quot;: &quot;25&quot;,
+                        &quot;tempF&quot;: &quot;78&quot;,
+                        &quot;windspeedMiles&quot;: &quot;8&quot;,
+                        &quot;windspeedKmph&quot;: &quot;12&quot;,
+                        &quot;winddirDegree&quot;: &quot;295&quot;,
+                        &quot;winddir16Point&quot;: &quot;WNW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;53&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1009&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;60&quot;,
+                        &quot;HeatIndexC&quot;: &quot;26&quot;,
+                        &quot;HeatIndexF&quot;: &quot;79&quot;,
+                        &quot;DewPointC&quot;: &quot;15&quot;,
+                        &quot;DewPointF&quot;: &quot;59&quot;,
+                        &quot;WindChillC&quot;: &quot;25&quot;,
+                        &quot;WindChillF&quot;: &quot;78&quot;,
+                        &quot;WindGustMiles&quot;: &quot;9&quot;,
+                        &quot;WindGustKmph&quot;: &quot;14&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;26&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;79&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;90&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;34&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;87&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;30&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;7&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;2100&quot;,
+                        &quot;tempC&quot;: &quot;23&quot;,
+                        &quot;tempF&quot;: &quot;73&quot;,
+                        &quot;windspeedMiles&quot;: &quot;7&quot;,
+                        &quot;windspeedKmph&quot;: &quot;12&quot;,
+                        &quot;winddirDegree&quot;: &quot;298&quot;,
+                        &quot;winddir16Point&quot;: &quot;WNW&quot;,
+                        &quot;weatherCode&quot;: &quot;176&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Patchy rain possible&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.2&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;63&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1009&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;97&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;77&quot;,
+                        &quot;DewPointC&quot;: &quot;15&quot;,
+                        &quot;DewPointF&quot;: &quot;60&quot;,
+                        &quot;WindChillC&quot;: &quot;23&quot;,
+                        &quot;WindChillF&quot;: &quot;73&quot;,
+                        &quot;WindGustMiles&quot;: &quot;9&quot;,
+                        &quot;WindGustKmph&quot;: &quot;14&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;77&quot;,
+                        &quot;chanceofrain&quot;: &quot;75&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;81&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    }
+                ]
+            },
+            {
+                &quot;date&quot;: &quot;2019-07-27&quot;,
+                &quot;astronomy&quot;: [
+                    {
+                        &quot;sunrise&quot;: &quot;05:16 AM&quot;,
+                        &quot;sunset&quot;: &quot;08:57 PM&quot;,
+                        &quot;moonrise&quot;: &quot;01:04 AM&quot;,
+                        &quot;moonset&quot;: &quot;04:28 PM&quot;,
+                        &quot;moon_phase&quot;: &quot;Waning Crescent&quot;,
+                        &quot;moon_illumination&quot;: &quot;24&quot;
+                    }
+                ],
+                &quot;maxtempC&quot;: &quot;23&quot;,
+                &quot;maxtempF&quot;: &quot;74&quot;,
+                &quot;mintempC&quot;: &quot;19&quot;,
+                &quot;mintempF&quot;: &quot;66&quot;,
+                &quot;avgtempC&quot;: &quot;21&quot;,
+                &quot;avgtempF&quot;: &quot;70&quot;,
+                &quot;totalSnow_cm&quot;: &quot;0.0&quot;,
+                &quot;sunHour&quot;: &quot;13.5&quot;,
+                &quot;uvIndex&quot;: &quot;5&quot;,
+                &quot;hourly&quot;: [
+                    {
+                        &quot;time&quot;: &quot;0&quot;,
+                        &quot;tempC&quot;: &quot;21&quot;,
+                        &quot;tempF&quot;: &quot;69&quot;,
+                        &quot;windspeedMiles&quot;: &quot;6&quot;,
+                        &quot;windspeedKmph&quot;: &quot;10&quot;,
+                        &quot;winddirDegree&quot;: &quot;306&quot;,
+                        &quot;winddir16Point&quot;: &quot;NW&quot;,
+                        &quot;weatherCode&quot;: &quot;296&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0033_cloudy_with_light_rain_night.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Light rain&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;1.5&quot;,
+                        &quot;precipInches&quot;: &quot;0.1&quot;,
+                        &quot;humidity&quot;: &quot;69&quot;,
+                        &quot;visibility&quot;: &quot;9&quot;,
+                        &quot;visibilityMiles&quot;: &quot;5&quot;,
+                        &quot;pressure&quot;: &quot;1008&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;100&quot;,
+                        &quot;HeatIndexC&quot;: &quot;21&quot;,
+                        &quot;HeatIndexF&quot;: &quot;69&quot;,
+                        &quot;DewPointC&quot;: &quot;15&quot;,
+                        &quot;DewPointF&quot;: &quot;58&quot;,
+                        &quot;WindChillC&quot;: &quot;21&quot;,
+                        &quot;WindChillF&quot;: &quot;69&quot;,
+                        &quot;WindGustMiles&quot;: &quot;7&quot;,
+                        &quot;WindGustKmph&quot;: &quot;12&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;21&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;69&quot;,
+                        &quot;chanceofrain&quot;: &quot;90&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;86&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;300&quot;,
+                        &quot;tempC&quot;: &quot;20&quot;,
+                        &quot;tempF&quot;: &quot;68&quot;,
+                        &quot;windspeedMiles&quot;: &quot;2&quot;,
+                        &quot;windspeedKmph&quot;: &quot;4&quot;,
+                        &quot;winddirDegree&quot;: &quot;319&quot;,
+                        &quot;winddir16Point&quot;: &quot;NW&quot;,
+                        &quot;weatherCode&quot;: &quot;296&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0033_cloudy_with_light_rain_night.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Light rain&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;1.4&quot;,
+                        &quot;precipInches&quot;: &quot;0.1&quot;,
+                        &quot;humidity&quot;: &quot;72&quot;,
+                        &quot;visibility&quot;: &quot;9&quot;,
+                        &quot;visibilityMiles&quot;: &quot;5&quot;,
+                        &quot;pressure&quot;: &quot;1007&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;100&quot;,
+                        &quot;HeatIndexC&quot;: &quot;20&quot;,
+                        &quot;HeatIndexF&quot;: &quot;68&quot;,
+                        &quot;DewPointC&quot;: &quot;15&quot;,
+                        &quot;DewPointF&quot;: &quot;59&quot;,
+                        &quot;WindChillC&quot;: &quot;20&quot;,
+                        &quot;WindChillF&quot;: &quot;68&quot;,
+                        &quot;WindGustMiles&quot;: &quot;3&quot;,
+                        &quot;WindGustKmph&quot;: &quot;5&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;20&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;68&quot;,
+                        &quot;chanceofrain&quot;: &quot;89&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;81&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;600&quot;,
+                        &quot;tempC&quot;: &quot;19&quot;,
+                        &quot;tempF&quot;: &quot;66&quot;,
+                        &quot;windspeedMiles&quot;: &quot;3&quot;,
+                        &quot;windspeedKmph&quot;: &quot;5&quot;,
+                        &quot;winddirDegree&quot;: &quot;347&quot;,
+                        &quot;winddir16Point&quot;: &quot;NNW&quot;,
+                        &quot;weatherCode&quot;: &quot;302&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Moderate rain&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;5.5&quot;,
+                        &quot;precipInches&quot;: &quot;0.2&quot;,
+                        &quot;humidity&quot;: &quot;80&quot;,
+                        &quot;visibility&quot;: &quot;7&quot;,
+                        &quot;visibilityMiles&quot;: &quot;4&quot;,
+                        &quot;pressure&quot;: &quot;1006&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;83&quot;,
+                        &quot;HeatIndexC&quot;: &quot;19&quot;,
+                        &quot;HeatIndexF&quot;: &quot;66&quot;,
+                        &quot;DewPointC&quot;: &quot;15&quot;,
+                        &quot;DewPointF&quot;: &quot;60&quot;,
+                        &quot;WindChillC&quot;: &quot;19&quot;,
+                        &quot;WindChillF&quot;: &quot;66&quot;,
+                        &quot;WindGustMiles&quot;: &quot;3&quot;,
+                        &quot;WindGustKmph&quot;: &quot;5&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;19&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;66&quot;,
+                        &quot;chanceofrain&quot;: &quot;88&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;92&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;4&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;900&quot;,
+                        &quot;tempC&quot;: &quot;20&quot;,
+                        &quot;tempF&quot;: &quot;68&quot;,
+                        &quot;windspeedMiles&quot;: &quot;5&quot;,
+                        &quot;windspeedKmph&quot;: &quot;8&quot;,
+                        &quot;winddirDegree&quot;: &quot;349&quot;,
+                        &quot;winddir16Point&quot;: &quot;NNW&quot;,
+                        &quot;weatherCode&quot;: &quot;293&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Patchy light rain&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.8&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;68&quot;,
+                        &quot;visibility&quot;: &quot;9&quot;,
+                        &quot;visibilityMiles&quot;: &quot;5&quot;,
+                        &quot;pressure&quot;: &quot;1007&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;57&quot;,
+                        &quot;HeatIndexC&quot;: &quot;20&quot;,
+                        &quot;HeatIndexF&quot;: &quot;68&quot;,
+                        &quot;DewPointC&quot;: &quot;14&quot;,
+                        &quot;DewPointF&quot;: &quot;57&quot;,
+                        &quot;WindChillC&quot;: &quot;20&quot;,
+                        &quot;WindChillF&quot;: &quot;68&quot;,
+                        &quot;WindGustMiles&quot;: &quot;6&quot;,
+                        &quot;WindGustKmph&quot;: &quot;9&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;20&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;68&quot;,
+                        &quot;chanceofrain&quot;: &quot;87&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;91&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;5&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1200&quot;,
+                        &quot;tempC&quot;: &quot;23&quot;,
+                        &quot;tempF&quot;: &quot;73&quot;,
+                        &quot;windspeedMiles&quot;: &quot;6&quot;,
+                        &quot;windspeedKmph&quot;: &quot;10&quot;,
+                        &quot;winddirDegree&quot;: &quot;323&quot;,
+                        &quot;winddir16Point&quot;: &quot;NW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;56&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1007&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;57&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;77&quot;,
+                        &quot;DewPointC&quot;: &quot;14&quot;,
+                        &quot;DewPointF&quot;: &quot;57&quot;,
+                        &quot;WindChillC&quot;: &quot;23&quot;,
+                        &quot;WindChillF&quot;: &quot;73&quot;,
+                        &quot;WindGustMiles&quot;: &quot;8&quot;,
+                        &quot;WindGustKmph&quot;: &quot;12&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;77&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;91&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;37&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;76&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;10&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1500&quot;,
+                        &quot;tempC&quot;: &quot;23&quot;,
+                        &quot;tempF&quot;: &quot;74&quot;,
+                        &quot;windspeedMiles&quot;: &quot;9&quot;,
+                        &quot;windspeedKmph&quot;: &quot;14&quot;,
+                        &quot;winddirDegree&quot;: &quot;329&quot;,
+                        &quot;winddir16Point&quot;: &quot;NNW&quot;,
+                        &quot;weatherCode&quot;: &quot;353&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Light rain shower&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;1.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;53&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1007&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;60&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;77&quot;,
+                        &quot;DewPointC&quot;: &quot;13&quot;,
+                        &quot;DewPointF&quot;: &quot;56&quot;,
+                        &quot;WindChillC&quot;: &quot;23&quot;,
+                        &quot;WindChillF&quot;: &quot;74&quot;,
+                        &quot;WindGustMiles&quot;: &quot;11&quot;,
+                        &quot;WindGustKmph&quot;: &quot;18&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;77&quot;,
+                        &quot;chanceofrain&quot;: &quot;62&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;91&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;10&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;5&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1800&quot;,
+                        &quot;tempC&quot;: &quot;23&quot;,
+                        &quot;tempF&quot;: &quot;73&quot;,
+                        &quot;windspeedMiles&quot;: &quot;9&quot;,
+                        &quot;windspeedKmph&quot;: &quot;14&quot;,
+                        &quot;winddirDegree&quot;: &quot;340&quot;,
+                        &quot;winddir16Point&quot;: &quot;NNW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;51&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1007&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;38&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;76&quot;,
+                        &quot;DewPointC&quot;: &quot;12&quot;,
+                        &quot;DewPointF&quot;: &quot;54&quot;,
+                        &quot;WindChillC&quot;: &quot;23&quot;,
+                        &quot;WindChillF&quot;: &quot;73&quot;,
+                        &quot;WindGustMiles&quot;: &quot;12&quot;,
+                        &quot;WindGustKmph&quot;: &quot;19&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;76&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;83&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;47&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;89&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;2100&quot;,
+                        &quot;tempC&quot;: &quot;21&quot;,
+                        &quot;tempF&quot;: &quot;69&quot;,
+                        &quot;windspeedMiles&quot;: &quot;7&quot;,
+                        &quot;windspeedKmph&quot;: &quot;11&quot;,
+                        &quot;winddirDegree&quot;: &quot;334&quot;,
+                        &quot;winddir16Point&quot;: &quot;NNW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;59&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1008&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;62&quot;,
+                        &quot;HeatIndexC&quot;: &quot;21&quot;,
+                        &quot;HeatIndexF&quot;: &quot;69&quot;,
+                        &quot;DewPointC&quot;: &quot;13&quot;,
+                        &quot;DewPointF&quot;: &quot;55&quot;,
+                        &quot;WindChillC&quot;: &quot;21&quot;,
+                        &quot;WindChillF&quot;: &quot;69&quot;,
+                        &quot;WindGustMiles&quot;: &quot;9&quot;,
+                        &quot;WindGustKmph&quot;: &quot;14&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;21&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;69&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;84&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;31&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;75&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    }
+                ]
+            },
+            {
+                &quot;date&quot;: &quot;2019-07-28&quot;,
+                &quot;astronomy&quot;: [
+                    {
+                        &quot;sunrise&quot;: &quot;05:18 AM&quot;,
+                        &quot;sunset&quot;: &quot;08:55 PM&quot;,
+                        &quot;moonrise&quot;: &quot;01:34 AM&quot;,
+                        &quot;moonset&quot;: &quot;05:41 PM&quot;,
+                        &quot;moon_phase&quot;: &quot;Waning Crescent&quot;,
+                        &quot;moon_illumination&quot;: &quot;16&quot;
+                    }
+                ],
+                &quot;maxtempC&quot;: &quot;25&quot;,
+                &quot;maxtempF&quot;: &quot;76&quot;,
+                &quot;mintempC&quot;: &quot;17&quot;,
+                &quot;mintempF&quot;: &quot;63&quot;,
+                &quot;avgtempC&quot;: &quot;21&quot;,
+                &quot;avgtempF&quot;: &quot;70&quot;,
+                &quot;totalSnow_cm&quot;: &quot;0.0&quot;,
+                &quot;sunHour&quot;: &quot;14.5&quot;,
+                &quot;uvIndex&quot;: &quot;6&quot;,
+                &quot;hourly&quot;: [
+                    {
+                        &quot;time&quot;: &quot;0&quot;,
+                        &quot;tempC&quot;: &quot;20&quot;,
+                        &quot;tempF&quot;: &quot;67&quot;,
+                        &quot;windspeedMiles&quot;: &quot;8&quot;,
+                        &quot;windspeedKmph&quot;: &quot;12&quot;,
+                        &quot;winddirDegree&quot;: &quot;315&quot;,
+                        &quot;winddir16Point&quot;: &quot;NW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;62&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1008&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;16&quot;,
+                        &quot;HeatIndexC&quot;: &quot;20&quot;,
+                        &quot;HeatIndexF&quot;: &quot;67&quot;,
+                        &quot;DewPointC&quot;: &quot;12&quot;,
+                        &quot;DewPointF&quot;: &quot;54&quot;,
+                        &quot;WindChillC&quot;: &quot;20&quot;,
+                        &quot;WindChillF&quot;: &quot;67&quot;,
+                        &quot;WindGustMiles&quot;: &quot;9&quot;,
+                        &quot;WindGustKmph&quot;: &quot;14&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;20&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;67&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;82&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;44&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;73&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;300&quot;,
+                        &quot;tempC&quot;: &quot;18&quot;,
+                        &quot;tempF&quot;: &quot;64&quot;,
+                        &quot;windspeedMiles&quot;: &quot;9&quot;,
+                        &quot;windspeedKmph&quot;: &quot;14&quot;,
+                        &quot;winddirDegree&quot;: &quot;320&quot;,
+                        &quot;winddir16Point&quot;: &quot;NW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;65&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1008&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;11&quot;,
+                        &quot;HeatIndexC&quot;: &quot;18&quot;,
+                        &quot;HeatIndexF&quot;: &quot;64&quot;,
+                        &quot;DewPointC&quot;: &quot;11&quot;,
+                        &quot;DewPointF&quot;: &quot;52&quot;,
+                        &quot;WindChillC&quot;: &quot;18&quot;,
+                        &quot;WindChillF&quot;: &quot;64&quot;,
+                        &quot;WindGustMiles&quot;: &quot;11&quot;,
+                        &quot;WindGustKmph&quot;: &quot;17&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;18&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;64&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;88&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;38&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;89&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;600&quot;,
+                        &quot;tempC&quot;: &quot;17&quot;,
+                        &quot;tempF&quot;: &quot;63&quot;,
+                        &quot;windspeedMiles&quot;: &quot;9&quot;,
+                        &quot;windspeedKmph&quot;: &quot;14&quot;,
+                        &quot;winddirDegree&quot;: &quot;308&quot;,
+                        &quot;winddir16Point&quot;: &quot;NW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;62&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1008&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;6&quot;,
+                        &quot;HeatIndexC&quot;: &quot;17&quot;,
+                        &quot;HeatIndexF&quot;: &quot;63&quot;,
+                        &quot;DewPointC&quot;: &quot;10&quot;,
+                        &quot;DewPointF&quot;: &quot;50&quot;,
+                        &quot;WindChillC&quot;: &quot;17&quot;,
+                        &quot;WindChillF&quot;: &quot;63&quot;,
+                        &quot;WindGustMiles&quot;: &quot;10&quot;,
+                        &quot;WindGustKmph&quot;: &quot;17&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;17&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;63&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;89&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;36&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;72&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;5&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;900&quot;,
+                        &quot;tempC&quot;: &quot;20&quot;,
+                        &quot;tempF&quot;: &quot;68&quot;,
+                        &quot;windspeedMiles&quot;: &quot;9&quot;,
+                        &quot;windspeedKmph&quot;: &quot;15&quot;,
+                        &quot;winddirDegree&quot;: &quot;302&quot;,
+                        &quot;winddir16Point&quot;: &quot;WNW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;50&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1009&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;6&quot;,
+                        &quot;HeatIndexC&quot;: &quot;20&quot;,
+                        &quot;HeatIndexF&quot;: &quot;68&quot;,
+                        &quot;DewPointC&quot;: &quot;9&quot;,
+                        &quot;DewPointF&quot;: &quot;49&quot;,
+                        &quot;WindChillC&quot;: &quot;20&quot;,
+                        &quot;WindChillF&quot;: &quot;68&quot;,
+                        &quot;WindGustMiles&quot;: &quot;11&quot;,
+                        &quot;WindGustKmph&quot;: &quot;17&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;20&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;68&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;81&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;39&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;73&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1200&quot;,
+                        &quot;tempC&quot;: &quot;24&quot;,
+                        &quot;tempF&quot;: &quot;74&quot;,
+                        &quot;windspeedMiles&quot;: &quot;11&quot;,
+                        &quot;windspeedKmph&quot;: &quot;17&quot;,
+                        &quot;winddirDegree&quot;: &quot;299&quot;,
+                        &quot;winddir16Point&quot;: &quot;WNW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;43&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1010&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;2&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;76&quot;,
+                        &quot;DewPointC&quot;: &quot;10&quot;,
+                        &quot;DewPointF&quot;: &quot;50&quot;,
+                        &quot;WindChillC&quot;: &quot;24&quot;,
+                        &quot;WindChillF&quot;: &quot;74&quot;,
+                        &quot;WindGustMiles&quot;: &quot;12&quot;,
+                        &quot;WindGustKmph&quot;: &quot;20&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;76&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;91&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;35&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;81&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;10&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1500&quot;,
+                        &quot;tempC&quot;: &quot;25&quot;,
+                        &quot;tempF&quot;: &quot;76&quot;,
+                        &quot;windspeedMiles&quot;: &quot;10&quot;,
+                        &quot;windspeedKmph&quot;: &quot;16&quot;,
+                        &quot;winddirDegree&quot;: &quot;295&quot;,
+                        &quot;winddir16Point&quot;: &quot;WNW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;43&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1010&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;24&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;78&quot;,
+                        &quot;DewPointC&quot;: &quot;11&quot;,
+                        &quot;DewPointF&quot;: &quot;52&quot;,
+                        &quot;WindChillC&quot;: &quot;25&quot;,
+                        &quot;WindChillF&quot;: &quot;76&quot;,
+                        &quot;WindGustMiles&quot;: &quot;11&quot;,
+                        &quot;WindGustKmph&quot;: &quot;18&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;78&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;85&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;32&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;76&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;15&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1800&quot;,
+                        &quot;tempC&quot;: &quot;24&quot;,
+                        &quot;tempF&quot;: &quot;75&quot;,
+                        &quot;windspeedMiles&quot;: &quot;8&quot;,
+                        &quot;windspeedKmph&quot;: &quot;13&quot;,
+                        &quot;winddirDegree&quot;: &quot;305&quot;,
+                        &quot;winddir16Point&quot;: &quot;NW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;47&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1011&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;22&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;77&quot;,
+                        &quot;DewPointC&quot;: &quot;12&quot;,
+                        &quot;DewPointF&quot;: &quot;54&quot;,
+                        &quot;WindChillC&quot;: &quot;24&quot;,
+                        &quot;WindChillF&quot;: &quot;75&quot;,
+                        &quot;WindGustMiles&quot;: &quot;10&quot;,
+                        &quot;WindGustKmph&quot;: &quot;15&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;77&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;90&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;46&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;70&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;15&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;2100&quot;,
+                        &quot;tempC&quot;: &quot;21&quot;,
+                        &quot;tempF&quot;: &quot;71&quot;,
+                        &quot;windspeedMiles&quot;: &quot;8&quot;,
+                        &quot;windspeedKmph&quot;: &quot;13&quot;,
+                        &quot;winddirDegree&quot;: &quot;291&quot;,
+                        &quot;winddir16Point&quot;: &quot;WNW&quot;,
+                        &quot;weatherCode&quot;: &quot;176&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Patchy rain possible&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.2&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;61&quot;,
+                        &quot;visibility&quot;: &quot;9&quot;,
+                        &quot;visibilityMiles&quot;: &quot;5&quot;,
+                        &quot;pressure&quot;: &quot;1012&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;84&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;76&quot;,
+                        &quot;DewPointC&quot;: &quot;14&quot;,
+                        &quot;DewPointF&quot;: &quot;56&quot;,
+                        &quot;WindChillC&quot;: &quot;21&quot;,
+                        &quot;WindChillF&quot;: &quot;71&quot;,
+                        &quot;WindGustMiles&quot;: &quot;10&quot;,
+                        &quot;WindGustKmph&quot;: &quot;16&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;21&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;71&quot;,
+                        &quot;chanceofrain&quot;: &quot;81&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;87&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    }
+                ]
+            },
+            {
+                &quot;date&quot;: &quot;2019-07-29&quot;,
+                &quot;astronomy&quot;: [
+                    {
+                        &quot;sunrise&quot;: &quot;05:19 AM&quot;,
+                        &quot;sunset&quot;: &quot;08:54 PM&quot;,
+                        &quot;moonrise&quot;: &quot;02:13 AM&quot;,
+                        &quot;moonset&quot;: &quot;06:50 PM&quot;,
+                        &quot;moon_phase&quot;: &quot;Waning Crescent&quot;,
+                        &quot;moon_illumination&quot;: &quot;9&quot;
+                    }
+                ],
+                &quot;maxtempC&quot;: &quot;25&quot;,
+                &quot;maxtempF&quot;: &quot;77&quot;,
+                &quot;mintempC&quot;: &quot;19&quot;,
+                &quot;mintempF&quot;: &quot;66&quot;,
+                &quot;avgtempC&quot;: &quot;22&quot;,
+                &quot;avgtempF&quot;: &quot;71&quot;,
+                &quot;totalSnow_cm&quot;: &quot;0.0&quot;,
+                &quot;sunHour&quot;: &quot;14.5&quot;,
+                &quot;uvIndex&quot;: &quot;5&quot;,
+                &quot;hourly&quot;: [
+                    {
+                        &quot;time&quot;: &quot;0&quot;,
+                        &quot;tempC&quot;: &quot;19&quot;,
+                        &quot;tempF&quot;: &quot;66&quot;,
+                        &quot;windspeedMiles&quot;: &quot;7&quot;,
+                        &quot;windspeedKmph&quot;: &quot;11&quot;,
+                        &quot;winddirDegree&quot;: &quot;278&quot;,
+                        &quot;winddir16Point&quot;: &quot;W&quot;,
+                        &quot;weatherCode&quot;: &quot;176&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Patchy rain possible&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.1&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;69&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1013&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;86&quot;,
+                        &quot;HeatIndexC&quot;: &quot;19&quot;,
+                        &quot;HeatIndexF&quot;: &quot;66&quot;,
+                        &quot;DewPointC&quot;: &quot;13&quot;,
+                        &quot;DewPointF&quot;: &quot;56&quot;,
+                        &quot;WindChillC&quot;: &quot;19&quot;,
+                        &quot;WindChillF&quot;: &quot;66&quot;,
+                        &quot;WindGustMiles&quot;: &quot;8&quot;,
+                        &quot;WindGustKmph&quot;: &quot;13&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;19&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;66&quot;,
+                        &quot;chanceofrain&quot;: &quot;62&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;87&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;300&quot;,
+                        &quot;tempC&quot;: &quot;19&quot;,
+                        &quot;tempF&quot;: &quot;66&quot;,
+                        &quot;windspeedMiles&quot;: &quot;4&quot;,
+                        &quot;windspeedKmph&quot;: &quot;7&quot;,
+                        &quot;winddirDegree&quot;: &quot;261&quot;,
+                        &quot;winddir16Point&quot;: &quot;W&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;73&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1013&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;4&quot;,
+                        &quot;HeatIndexC&quot;: &quot;19&quot;,
+                        &quot;HeatIndexF&quot;: &quot;66&quot;,
+                        &quot;DewPointC&quot;: &quot;14&quot;,
+                        &quot;DewPointF&quot;: &quot;58&quot;,
+                        &quot;WindChillC&quot;: &quot;19&quot;,
+                        &quot;WindChillF&quot;: &quot;66&quot;,
+                        &quot;WindGustMiles&quot;: &quot;5&quot;,
+                        &quot;WindGustKmph&quot;: &quot;8&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;19&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;66&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;93&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;33&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;80&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;600&quot;,
+                        &quot;tempC&quot;: &quot;19&quot;,
+                        &quot;tempF&quot;: &quot;66&quot;,
+                        &quot;windspeedMiles&quot;: &quot;4&quot;,
+                        &quot;windspeedKmph&quot;: &quot;6&quot;,
+                        &quot;winddirDegree&quot;: &quot;233&quot;,
+                        &quot;winddir16Point&quot;: &quot;SW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;70&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1014&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;7&quot;,
+                        &quot;HeatIndexC&quot;: &quot;19&quot;,
+                        &quot;HeatIndexF&quot;: &quot;66&quot;,
+                        &quot;DewPointC&quot;: &quot;13&quot;,
+                        &quot;DewPointF&quot;: &quot;56&quot;,
+                        &quot;WindChillC&quot;: &quot;19&quot;,
+                        &quot;WindChillF&quot;: &quot;66&quot;,
+                        &quot;WindGustMiles&quot;: &quot;4&quot;,
+                        &quot;WindGustKmph&quot;: &quot;7&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;19&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;66&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;83&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;41&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;77&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;5&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;900&quot;,
+                        &quot;tempC&quot;: &quot;22&quot;,
+                        &quot;tempF&quot;: &quot;71&quot;,
+                        &quot;windspeedMiles&quot;: &quot;6&quot;,
+                        &quot;windspeedKmph&quot;: &quot;10&quot;,
+                        &quot;winddirDegree&quot;: &quot;224&quot;,
+                        &quot;winddir16Point&quot;: &quot;SW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;49&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1015&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;13&quot;,
+                        &quot;HeatIndexC&quot;: &quot;24&quot;,
+                        &quot;HeatIndexF&quot;: &quot;76&quot;,
+                        &quot;DewPointC&quot;: &quot;11&quot;,
+                        &quot;DewPointF&quot;: &quot;51&quot;,
+                        &quot;WindChillC&quot;: &quot;22&quot;,
+                        &quot;WindChillF&quot;: &quot;71&quot;,
+                        &quot;WindGustMiles&quot;: &quot;7&quot;,
+                        &quot;WindGustKmph&quot;: &quot;12&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;22&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;71&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;90&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;37&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;89&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1200&quot;,
+                        &quot;tempC&quot;: &quot;25&quot;,
+                        &quot;tempF&quot;: &quot;77&quot;,
+                        &quot;windspeedMiles&quot;: &quot;8&quot;,
+                        &quot;windspeedKmph&quot;: &quot;13&quot;,
+                        &quot;winddirDegree&quot;: &quot;211&quot;,
+                        &quot;winddir16Point&quot;: &quot;SSW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;41&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1014&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;10&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;78&quot;,
+                        &quot;DewPointC&quot;: &quot;11&quot;,
+                        &quot;DewPointF&quot;: &quot;51&quot;,
+                        &quot;WindChillC&quot;: &quot;25&quot;,
+                        &quot;WindChillF&quot;: &quot;77&quot;,
+                        &quot;WindGustMiles&quot;: &quot;9&quot;,
+                        &quot;WindGustKmph&quot;: &quot;15&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;78&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;80&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;36&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;84&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;15&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1500&quot;,
+                        &quot;tempC&quot;: &quot;25&quot;,
+                        &quot;tempF&quot;: &quot;77&quot;,
+                        &quot;windspeedMiles&quot;: &quot;11&quot;,
+                        &quot;windspeedKmph&quot;: &quot;17&quot;,
+                        &quot;winddirDegree&quot;: &quot;216&quot;,
+                        &quot;winddir16Point&quot;: &quot;SW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;39&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1014&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;9&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;78&quot;,
+                        &quot;DewPointC&quot;: &quot;10&quot;,
+                        &quot;DewPointF&quot;: &quot;50&quot;,
+                        &quot;WindChillC&quot;: &quot;25&quot;,
+                        &quot;WindChillF&quot;: &quot;77&quot;,
+                        &quot;WindGustMiles&quot;: &quot;12&quot;,
+                        &quot;WindGustKmph&quot;: &quot;19&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;78&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;88&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;45&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;85&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;30&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;7&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1800&quot;,
+                        &quot;tempC&quot;: &quot;23&quot;,
+                        &quot;tempF&quot;: &quot;74&quot;,
+                        &quot;windspeedMiles&quot;: &quot;9&quot;,
+                        &quot;windspeedKmph&quot;: &quot;15&quot;,
+                        &quot;winddirDegree&quot;: &quot;210&quot;,
+                        &quot;winddir16Point&quot;: &quot;SSW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;45&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1014&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;8&quot;,
+                        &quot;HeatIndexC&quot;: &quot;25&quot;,
+                        &quot;HeatIndexF&quot;: &quot;76&quot;,
+                        &quot;DewPointC&quot;: &quot;11&quot;,
+                        &quot;DewPointF&quot;: &quot;51&quot;,
+                        &quot;WindChillC&quot;: &quot;23&quot;,
+                        &quot;WindChillF&quot;: &quot;74&quot;,
+                        &quot;WindGustMiles&quot;: &quot;11&quot;,
+                        &quot;WindGustKmph&quot;: &quot;17&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;76&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;90&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;42&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;75&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;10&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;2100&quot;,
+                        &quot;tempC&quot;: &quot;21&quot;,
+                        &quot;tempF&quot;: &quot;69&quot;,
+                        &quot;windspeedMiles&quot;: &quot;6&quot;,
+                        &quot;windspeedKmph&quot;: &quot;10&quot;,
+                        &quot;winddirDegree&quot;: &quot;209&quot;,
+                        &quot;winddir16Point&quot;: &quot;SSW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;57&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1014&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;6&quot;,
+                        &quot;HeatIndexC&quot;: &quot;21&quot;,
+                        &quot;HeatIndexF&quot;: &quot;69&quot;,
+                        &quot;DewPointC&quot;: &quot;12&quot;,
+                        &quot;DewPointF&quot;: &quot;53&quot;,
+                        &quot;WindChillC&quot;: &quot;21&quot;,
+                        &quot;WindChillF&quot;: &quot;69&quot;,
+                        &quot;WindGustMiles&quot;: &quot;7&quot;,
+                        &quot;WindGustKmph&quot;: &quot;12&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;21&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;69&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;83&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;41&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;78&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    }
+                ]
+            },
+            {
+                &quot;date&quot;: &quot;2019-07-30&quot;,
+                &quot;astronomy&quot;: [
+                    {
+                        &quot;sunrise&quot;: &quot;05:21 AM&quot;,
+                        &quot;sunset&quot;: &quot;08:52 PM&quot;,
+                        &quot;moonrise&quot;: &quot;03:05 AM&quot;,
+                        &quot;moonset&quot;: &quot;07:52 PM&quot;,
+                        &quot;moon_phase&quot;: &quot;Waning Crescent&quot;,
+                        &quot;moon_illumination&quot;: &quot;2&quot;
+                    }
+                ],
+                &quot;maxtempC&quot;: &quot;23&quot;,
+                &quot;maxtempF&quot;: &quot;73&quot;,
+                &quot;mintempC&quot;: &quot;18&quot;,
+                &quot;mintempF&quot;: &quot;64&quot;,
+                &quot;avgtempC&quot;: &quot;20&quot;,
+                &quot;avgtempF&quot;: &quot;68&quot;,
+                &quot;totalSnow_cm&quot;: &quot;0.0&quot;,
+                &quot;sunHour&quot;: &quot;11.5&quot;,
+                &quot;uvIndex&quot;: &quot;5&quot;,
+                &quot;hourly&quot;: [
+                    {
+                        &quot;time&quot;: &quot;0&quot;,
+                        &quot;tempC&quot;: &quot;19&quot;,
+                        &quot;tempF&quot;: &quot;66&quot;,
+                        &quot;windspeedMiles&quot;: &quot;5&quot;,
+                        &quot;windspeedKmph&quot;: &quot;8&quot;,
+                        &quot;winddirDegree&quot;: &quot;191&quot;,
+                        &quot;winddir16Point&quot;: &quot;S&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;61&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1015&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;50&quot;,
+                        &quot;HeatIndexC&quot;: &quot;19&quot;,
+                        &quot;HeatIndexF&quot;: &quot;66&quot;,
+                        &quot;DewPointC&quot;: &quot;11&quot;,
+                        &quot;DewPointF&quot;: &quot;52&quot;,
+                        &quot;WindChillC&quot;: &quot;19&quot;,
+                        &quot;WindChillF&quot;: &quot;66&quot;,
+                        &quot;WindGustMiles&quot;: &quot;7&quot;,
+                        &quot;WindGustKmph&quot;: &quot;11&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;19&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;66&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;87&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;46&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;84&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;300&quot;,
+                        &quot;tempC&quot;: &quot;18&quot;,
+                        &quot;tempF&quot;: &quot;64&quot;,
+                        &quot;windspeedMiles&quot;: &quot;6&quot;,
+                        &quot;windspeedKmph&quot;: &quot;9&quot;,
+                        &quot;winddirDegree&quot;: &quot;194&quot;,
+                        &quot;winddir16Point&quot;: &quot;SSW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;65&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1014&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;54&quot;,
+                        &quot;HeatIndexC&quot;: &quot;18&quot;,
+                        &quot;HeatIndexF&quot;: &quot;64&quot;,
+                        &quot;DewPointC&quot;: &quot;11&quot;,
+                        &quot;DewPointF&quot;: &quot;53&quot;,
+                        &quot;WindChillC&quot;: &quot;18&quot;,
+                        &quot;WindChillF&quot;: &quot;64&quot;,
+                        &quot;WindGustMiles&quot;: &quot;7&quot;,
+                        &quot;WindGustKmph&quot;: &quot;12&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;18&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;64&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;90&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;40&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;75&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;600&quot;,
+                        &quot;tempC&quot;: &quot;18&quot;,
+                        &quot;tempF&quot;: &quot;64&quot;,
+                        &quot;windspeedMiles&quot;: &quot;7&quot;,
+                        &quot;windspeedKmph&quot;: &quot;11&quot;,
+                        &quot;winddirDegree&quot;: &quot;242&quot;,
+                        &quot;winddir16Point&quot;: &quot;WSW&quot;,
+                        &quot;weatherCode&quot;: &quot;119&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;74&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1015&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;63&quot;,
+                        &quot;HeatIndexC&quot;: &quot;18&quot;,
+                        &quot;HeatIndexF&quot;: &quot;64&quot;,
+                        &quot;DewPointC&quot;: &quot;13&quot;,
+                        &quot;DewPointF&quot;: &quot;56&quot;,
+                        &quot;WindChillC&quot;: &quot;18&quot;,
+                        &quot;WindChillF&quot;: &quot;64&quot;,
+                        &quot;WindGustMiles&quot;: &quot;8&quot;,
+                        &quot;WindGustKmph&quot;: &quot;13&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;18&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;64&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;83&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;89&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;5&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;4&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;900&quot;,
+                        &quot;tempC&quot;: &quot;21&quot;,
+                        &quot;tempF&quot;: &quot;70&quot;,
+                        &quot;windspeedMiles&quot;: &quot;10&quot;,
+                        &quot;windspeedKmph&quot;: &quot;15&quot;,
+                        &quot;winddirDegree&quot;: &quot;235&quot;,
+                        &quot;winddir16Point&quot;: &quot;SW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;52&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1015&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;4&quot;,
+                        &quot;HeatIndexC&quot;: &quot;21&quot;,
+                        &quot;HeatIndexF&quot;: &quot;70&quot;,
+                        &quot;DewPointC&quot;: &quot;11&quot;,
+                        &quot;DewPointF&quot;: &quot;51&quot;,
+                        &quot;WindChillC&quot;: &quot;21&quot;,
+                        &quot;WindChillF&quot;: &quot;70&quot;,
+                        &quot;WindGustMiles&quot;: &quot;11&quot;,
+                        &quot;WindGustKmph&quot;: &quot;18&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;21&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;70&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;87&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;30&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;76&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1200&quot;,
+                        &quot;tempC&quot;: &quot;23&quot;,
+                        &quot;tempF&quot;: &quot;73&quot;,
+                        &quot;windspeedMiles&quot;: &quot;13&quot;,
+                        &quot;windspeedKmph&quot;: &quot;22&quot;,
+                        &quot;winddirDegree&quot;: &quot;223&quot;,
+                        &quot;winddir16Point&quot;: &quot;SW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;43&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1015&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;26&quot;,
+                        &quot;HeatIndexC&quot;: &quot;24&quot;,
+                        &quot;HeatIndexF&quot;: &quot;76&quot;,
+                        &quot;DewPointC&quot;: &quot;10&quot;,
+                        &quot;DewPointF&quot;: &quot;49&quot;,
+                        &quot;WindChillC&quot;: &quot;23&quot;,
+                        &quot;WindChillF&quot;: &quot;73&quot;,
+                        &quot;WindGustMiles&quot;: &quot;15&quot;,
+                        &quot;WindGustKmph&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;24&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;76&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;82&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;44&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;73&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;6&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1500&quot;,
+                        &quot;tempC&quot;: &quot;23&quot;,
+                        &quot;tempF&quot;: &quot;73&quot;,
+                        &quot;windspeedMiles&quot;: &quot;15&quot;,
+                        &quot;windspeedKmph&quot;: &quot;24&quot;,
+                        &quot;winddirDegree&quot;: &quot;227&quot;,
+                        &quot;winddir16Point&quot;: &quot;SW&quot;,
+                        &quot;weatherCode&quot;: &quot;176&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Patchy rain possible&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.1&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;41&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1015&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;88&quot;,
+                        &quot;HeatIndexC&quot;: &quot;24&quot;,
+                        &quot;HeatIndexF&quot;: &quot;76&quot;,
+                        &quot;DewPointC&quot;: &quot;9&quot;,
+                        &quot;DewPointF&quot;: &quot;48&quot;,
+                        &quot;WindChillC&quot;: &quot;23&quot;,
+                        &quot;WindChillF&quot;: &quot;73&quot;,
+                        &quot;WindGustMiles&quot;: &quot;17&quot;,
+                        &quot;WindGustKmph&quot;: &quot;28&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;24&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;76&quot;,
+                        &quot;chanceofrain&quot;: &quot;85&quot;,
+                        &quot;chanceofremdry&quot;: &quot;0&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;89&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;0&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;5&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;1800&quot;,
+                        &quot;tempC&quot;: &quot;20&quot;,
+                        &quot;tempF&quot;: &quot;69&quot;,
+                        &quot;windspeedMiles&quot;: &quot;14&quot;,
+                        &quot;windspeedKmph&quot;: &quot;22&quot;,
+                        &quot;winddirDegree&quot;: &quot;233&quot;,
+                        &quot;winddir16Point&quot;: &quot;SW&quot;,
+                        &quot;weatherCode&quot;: &quot;119&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;56&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1015&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;68&quot;,
+                        &quot;HeatIndexC&quot;: &quot;20&quot;,
+                        &quot;HeatIndexF&quot;: &quot;69&quot;,
+                        &quot;DewPointC&quot;: &quot;11&quot;,
+                        &quot;DewPointF&quot;: &quot;52&quot;,
+                        &quot;WindChillC&quot;: &quot;20&quot;,
+                        &quot;WindChillF&quot;: &quot;69&quot;,
+                        &quot;WindGustMiles&quot;: &quot;16&quot;,
+                        &quot;WindGustKmph&quot;: &quot;26&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;20&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;69&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;91&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;81&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;18&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;5&quot;
+                    },
+                    {
+                        &quot;time&quot;: &quot;2100&quot;,
+                        &quot;tempC&quot;: &quot;18&quot;,
+                        &quot;tempF&quot;: &quot;65&quot;,
+                        &quot;windspeedMiles&quot;: &quot;12&quot;,
+                        &quot;windspeedKmph&quot;: &quot;19&quot;,
+                        &quot;winddirDegree&quot;: &quot;246&quot;,
+                        &quot;winddir16Point&quot;: &quot;WSW&quot;,
+                        &quot;weatherCode&quot;: &quot;116&quot;,
+                        &quot;weatherIconUrl&quot;: [
+                            {
+                                &quot;value&quot;: &quot;http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png&quot;
+                            }
+                        ],
+                        &quot;weatherDesc&quot;: [
+                            {
+                                &quot;value&quot;: &quot;Partly cloudy&quot;
+                            }
+                        ],
+                        &quot;precipMM&quot;: &quot;0.0&quot;,
+                        &quot;precipInches&quot;: &quot;0.0&quot;,
+                        &quot;humidity&quot;: &quot;66&quot;,
+                        &quot;visibility&quot;: &quot;10&quot;,
+                        &quot;visibilityMiles&quot;: &quot;6&quot;,
+                        &quot;pressure&quot;: &quot;1016&quot;,
+                        &quot;pressureInches&quot;: &quot;30&quot;,
+                        &quot;cloudcover&quot;: &quot;52&quot;,
+                        &quot;HeatIndexC&quot;: &quot;18&quot;,
+                        &quot;HeatIndexF&quot;: &quot;65&quot;,
+                        &quot;DewPointC&quot;: &quot;12&quot;,
+                        &quot;DewPointF&quot;: &quot;53&quot;,
+                        &quot;WindChillC&quot;: &quot;18&quot;,
+                        &quot;WindChillF&quot;: &quot;65&quot;,
+                        &quot;WindGustMiles&quot;: &quot;16&quot;,
+                        &quot;WindGustKmph&quot;: &quot;25&quot;,
+                        &quot;FeelsLikeC&quot;: &quot;18&quot;,
+                        &quot;FeelsLikeF&quot;: &quot;65&quot;,
+                        &quot;chanceofrain&quot;: &quot;0&quot;,
+                        &quot;chanceofremdry&quot;: &quot;88&quot;,
+                        &quot;chanceofwindy&quot;: &quot;0&quot;,
+                        &quot;chanceofovercast&quot;: &quot;37&quot;,
+                        &quot;chanceofsunshine&quot;: &quot;86&quot;,
+                        &quot;chanceoffrost&quot;: &quot;0&quot;,
+                        &quot;chanceofhightemp&quot;: &quot;0&quot;,
+                        &quot;chanceoffog&quot;: &quot;0&quot;,
+                        &quot;chanceofsnow&quot;: &quot;0&quot;,
+                        &quot;chanceofthunder&quot;: &quot;0&quot;,
+                        &quot;uvIndex&quot;: &quot;0&quot;
+                    }
+                ]
+            }
+        ],
+        &quot;ClimateAverages&quot;: [
+            {
+                &quot;month&quot;: [
+                    {
+                        &quot;index&quot;: &quot;1&quot;,
+                        &quot;name&quot;: &quot;January&quot;,
+                        &quot;avgMinTemp&quot;: &quot;1.9&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;35.4&quot;,
+                        &quot;absMaxTemp&quot;: &quot;8.614225&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;47.5&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.62&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;2&quot;,
+                        &quot;name&quot;: &quot;February&quot;,
+                        &quot;avgMinTemp&quot;: &quot;2.4&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;36.3&quot;,
+                        &quot;absMaxTemp&quot;: &quot;11.77857&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;53.2&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.76&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;3&quot;,
+                        &quot;name&quot;: &quot;March&quot;,
+                        &quot;avgMinTemp&quot;: &quot;3.4&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;38.1&quot;,
+                        &quot;absMaxTemp&quot;: &quot;12.93468&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;55.3&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.70&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;4&quot;,
+                        &quot;name&quot;: &quot;April&quot;,
+                        &quot;avgMinTemp&quot;: &quot;5.2&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;41.4&quot;,
+                        &quot;absMaxTemp&quot;: &quot;17.86933&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;64.2&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.69&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;5&quot;,
+                        &quot;name&quot;: &quot;May&quot;,
+                        &quot;avgMinTemp&quot;: &quot;7.9&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;46.2&quot;,
+                        &quot;absMaxTemp&quot;: &quot;20.45584&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;68.8&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.89&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;6&quot;,
+                        &quot;name&quot;: &quot;June&quot;,
+                        &quot;avgMinTemp&quot;: &quot;10.7&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;51.2&quot;,
+                        &quot;absMaxTemp&quot;: &quot;22.68897&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;72.8&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;1.35&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;7&quot;,
+                        &quot;name&quot;: &quot;July&quot;,
+                        &quot;avgMinTemp&quot;: &quot;13.1&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;55.5&quot;,
+                        &quot;absMaxTemp&quot;: &quot;26.73861&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;80.1&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.97&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;8&quot;,
+                        &quot;name&quot;: &quot;August&quot;,
+                        &quot;avgMinTemp&quot;: &quot;13.3&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;55.9&quot;,
+                        &quot;absMaxTemp&quot;: &quot;23.17106&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;73.7&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.87&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;9&quot;,
+                        &quot;name&quot;: &quot;September&quot;,
+                        &quot;avgMinTemp&quot;: &quot;11.1&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;52.0&quot;,
+                        &quot;absMaxTemp&quot;: &quot;20.82853&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;69.5&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.51&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;10&quot;,
+                        &quot;name&quot;: &quot;October&quot;,
+                        &quot;avgMinTemp&quot;: &quot;9.0&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;48.3&quot;,
+                        &quot;absMaxTemp&quot;: &quot;16.73871&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;62.1&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.53&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;11&quot;,
+                        &quot;name&quot;: &quot;November&quot;,
+                        &quot;avgMinTemp&quot;: &quot;5.8&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;42.4&quot;,
+                        &quot;absMaxTemp&quot;: &quot;12.79823&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;55.0&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.79&quot;
+                    },
+                    {
+                        &quot;index&quot;: &quot;12&quot;,
+                        &quot;name&quot;: &quot;December&quot;,
+                        &quot;avgMinTemp&quot;: &quot;3.3&quot;,
+                        &quot;avgMinTemp_F&quot;: &quot;38.0&quot;,
+                        &quot;absMaxTemp&quot;: &quot;11.51729&quot;,
+                        &quot;absMaxTemp_F&quot;: &quot;52.7&quot;,
+                        &quot;avgDailyRainfall&quot;: &quot;0.86&quot;
+                    }
+                ]
+            }
+        ]
+    }
+}</string>
 	<key>search_success_emptyresult</key>
 	<string>{
     &quot;search_api&quot;: {

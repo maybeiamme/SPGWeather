@@ -188,9 +188,40 @@ class HomePresenterTests: XCTestCase {
         let expected = "Search results"
         XCTAssertEqual(actual, expected)
     }
+    
+    func testUserSelectsOneOfTheSearchedList() {
+        // given
+        interactor.searchedCityNames = ["London", "Singapore"]
+        
+        // when
+        sut.didSelectSearchedKeyword(at: 1)
+        
+        // then
+        let expected = "Singapore"
+        let actual = router.cityName!
+        XCTAssertEqual(actual, expected)
+    }
+    
+    func testUserSelectsOneOfTheSearchedListWithItsEmpty() {
+        // given
+        interactor.searchedCityNames = nil
+        
+        // when
+        sut.didSelectSearchedKeyword(at: 1)
+        
+        // then
+        let expected: String? = nil
+        let actual = router.cityName
+        XCTAssertEqual(actual, expected)
+    }
 }
 
 class HomeInteractorInputMock: HomeInteractorInputProtocol {
+    var searchedCityNames: [String]?
+    func cityName(for index: Int) -> String? {
+        return searchedCityNames?[index]
+    }
+    
     var typed: String?
     func search(with keyword: String?) {
         typed = keyword
@@ -203,8 +234,9 @@ class HomeInteractorInputMock: HomeInteractorInputProtocol {
 }
 
 class HomeRouterMock: HomeRouterProtocol {
-    func navigateToWeatherView(from: UIViewController?) {
-        
+    var cityName: String?
+    func navigateToWeatherView(from: UIViewController?, with cityName: String) {
+        self.cityName = cityName
     }
 }
 

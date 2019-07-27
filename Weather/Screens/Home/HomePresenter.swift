@@ -66,7 +66,10 @@ extension HomePresenter: HomeViewOutputProtocol {
     }
     
     func didSelectSearchedKeyword(at index: Int) {
-        
+        guard let cityName = interactor.cityName(for: index) else {
+            return
+        }
+        router.navigateToWeatherView(from: view, with: cityName)
     }
     
     func searchBarHasResigned() {
