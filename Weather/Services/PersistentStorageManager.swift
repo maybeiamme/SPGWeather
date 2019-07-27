@@ -8,13 +8,6 @@
 
 import Foundation
 
-protocol UserDefaultsProtocol {
-    func set(_ value: Any?, forKey defaultName: String)
-    func array(forKey defaultName: String) -> [Any]?
-}
-
-extension UserDefaults: UserDefaultsProtocol { }
-
 protocol PersistentStorageManagerProtocol {
     /**
      Function that inserts string to the persistent storage

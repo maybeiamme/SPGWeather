@@ -57,6 +57,10 @@ struct DetailViewModel: Equatable {
     }
 }
 
+/**
+ Protocol that DetailViewController will refer to.
+ DetailViewController sends message to presenter via this channel.
+ */
 protocol DetailViewOutputProtocol {
     func viewDidLoad()
 }

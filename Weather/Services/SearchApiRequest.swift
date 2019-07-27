@@ -8,13 +8,6 @@
 
 import Foundation
 
-enum ApiError: Error {
-    case wrongurl
-    case unabletoaccess
-    case parseerror
-    case systemerror
-}
-
 struct SearchApiResponse: Decodable, Equatable {
     let results: [SearchApiResponseResult]?
     

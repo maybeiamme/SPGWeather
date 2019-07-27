@@ -8,9 +8,24 @@
 
 import Foundation
 
+/**
+ Protocol that HomePresenter will refer to.
+ HomePresenter sends message to interactor via this channel.
+ */
 protocol HomeInteractorInputProtocol {
+    /**
+     Functino should be called when typed for search
+     */
     func search(with keyword: String?)
+    
+    /**
+     DataSource for viewed city
+    */
     func viewedCities() -> HomeViewdCities
+    
+    /**
+     Function for returning corresponding city name for index.
+    */
     func cityName(for index: Int) -> String?
 }
 

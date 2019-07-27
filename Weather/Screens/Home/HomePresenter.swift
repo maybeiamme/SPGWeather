@@ -15,10 +15,21 @@ struct HomeStatusViewModel: Equatable {
     let isVacantStatusViewHidden: Bool
 }
 
+/**
+ Protocol that HomeInteractor will weakly refer to.
+ HomeInteractor sends message to presenter via this channel.
+ */
 protocol HomeInteractorOutputProtocol: AnyObject {
+    /**
+     Function should be called when network access is completed
+    */
     func searchResultLoaded(results: HomeSearchedKeyword)
 }
 
+/**
+ Protocol that HomeViewController will refer to.
+ HomeViewController sends message to presenter via this channel.
+ */
 protocol HomeViewOutputProtocol {
     func viewDidLoad()
     func searchBarHasResigned()

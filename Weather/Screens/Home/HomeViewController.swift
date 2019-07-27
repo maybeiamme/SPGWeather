@@ -8,6 +8,10 @@
 
 import UIKit
 
+/**
+ Protocol that HomePresenter will weakly refer to.
+ HomePresenter sends message to presenter via this channel.
+ */
 protocol HomeViewInputProtocol: AnyObject {
     func set(status: HomeStatusViewModel)
     func reloadSearchedTableView()

@@ -17,13 +17,6 @@ enum NetworkError: Error {
     case networkerror
 }
 
-protocol URLSessionProtocol {
-    func dataTask(with request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask
-    func getAllTasks(completionHandler: @escaping ([URLSessionTask]) -> Void)
-}
-
-extension URLSession: URLSessionProtocol {}
-
 protocol NetworkCancelable {
     
     /**

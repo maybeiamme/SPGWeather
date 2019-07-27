@@ -61,6 +61,8 @@
 		41907C7722ECA11100CEED11 /* CaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41907C7622ECA11100CEED11 /* CaseTests.swift */; };
 		41907C7F22ECAFCF00CEED11 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41907C7C22ECA41000CEED11 /* Utilities.swift */; };
 		41907C8022ECAFD300CEED11 /* StubResponses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41907C7922ECA35600CEED11 /* StubResponses.plist */; };
+		41A1DA6822ECBF02005FFE16 /* ApiErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A1DA6722ECBF02005FFE16 /* ApiErrors.swift */; };
+		41A1DA6A22ECBF67005FFE16 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A1DA6922ECBF67005FFE16 /* Protocols.swift */; };
 		41DB65E122EB286C007A2F09 /* ApiEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB65E022EB286C007A2F09 /* ApiEndpoints.swift */; };
 		41DB65E322EB3429007A2F09 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41DB65E222EB3429007A2F09 /* Config.plist */; };
 		41DB65E622EB40C3007A2F09 /* UrlVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB65E522EB40C3007A2F09 /* UrlVerification.swift */; };
@@ -147,6 +149,8 @@
 		41907C7622ECA11100CEED11 /* CaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseTests.swift; sourceTree = "<group>"; };
 		41907C7922ECA35600CEED11 /* StubResponses.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StubResponses.plist; sourceTree = "<group>"; };
 		41907C7C22ECA41000CEED11 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		41A1DA6722ECBF02005FFE16 /* ApiErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrors.swift; sourceTree = "<group>"; };
+		41A1DA6922ECBF67005FFE16 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		41DB65E022EB286C007A2F09 /* ApiEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoints.swift; sourceTree = "<group>"; };
 		41DB65E222EB3429007A2F09 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		41DB65E522EB40C3007A2F09 /* UrlVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlVerification.swift; sourceTree = "<group>"; };
@@ -363,6 +367,7 @@
 				41DB65E722EB4255007A2F09 /* SearchApiRequest.swift */,
 				41907C4022EC60A000CEED11 /* WeatherApiRequest.swift */,
 				41907C5E22EC74DE00CEED11 /* ThumbnailDownloader.swift */,
+				41A1DA6922ECBF67005FFE16 /* Protocols.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -423,6 +428,7 @@
 			isa = PBXGroup;
 			children = (
 				41DB65E022EB286C007A2F09 /* ApiEndpoints.swift */,
+				41A1DA6722ECBF02005FFE16 /* ApiErrors.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -578,6 +584,7 @@
 				41907C4922EC695F00CEED11 /* DetailApiService.swift in Sources */,
 				3C6D76D522EAE95900338047 /* HomeApiService.swift in Sources */,
 				41907C5722EC6EBA00CEED11 /* DetailInteractor.swift in Sources */,
+				41A1DA6A22ECBF67005FFE16 /* Protocols.swift in Sources */,
 				41DB65E822EB4255007A2F09 /* SearchApiRequest.swift in Sources */,
 				4179F7DE22EBF97D004A3B85 /* HomePresenter.swift in Sources */,
 				4150F11822EBDB730003DFD7 /* HomeEntity.swift in Sources */,
@@ -590,6 +597,7 @@
 				41907C4B22EC696E00CEED11 /* DetailPersistentStorageService.swift in Sources */,
 				4179D5BA22EBEECC00C5D89E /* HomePersistentStorageService.swift in Sources */,
 				41907C4122EC60A000CEED11 /* WeatherApiRequest.swift in Sources */,
+				41A1DA6822ECBF02005FFE16 /* ApiErrors.swift in Sources */,
 				41907C5F22EC74DE00CEED11 /* ThumbnailDownloader.swift in Sources */,
 				4120187B22E9D12C00A25656 /* HomeViewController.swift in Sources */,
 				3C6D76CA22EAA62800338047 /* PersistentStorageManager.swift in Sources */,
