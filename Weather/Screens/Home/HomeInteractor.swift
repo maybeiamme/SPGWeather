@@ -37,9 +37,8 @@ final class HomeInteractor {
 
 extension HomeInteractor: HomeInteractorInputProtocol {
     func search(with keyword: String?) {
-        guard let keyword = keyword,
-            keyword.count > 1 else {
-                return
+        guard let keyword = keyword else {
+            return
         }
         apiService.cancelAllPreviousSearch()
         if searchTask?.isCancelled == false {

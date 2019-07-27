@@ -73,6 +73,7 @@ extension HomePresenter: HomeViewOutputProtocol {
     }
     
     func searchBarHasResigned() {
+        lastReceivedSearchedList = nil
         let status = viewModelWhenSearchBarHasResigned()
         self.status = status
         view?.set(status: status)
